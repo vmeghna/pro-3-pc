@@ -113,18 +113,25 @@ hr {
   text-align: center;
   margin-top: 10px;
 }
-@media (max-width: 376px) {
+
+/*mobile view-s*/
+@media (max-width: 476px) {
+  .container {
+    min-width: 180px;
+    padding: 30px;
+  }
   .box {
     min-width: 280px;
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
   }
+
   .first {
     position: absolute;
     width: 100%;
     height: 100%;
     top: -30%;
     left: -45%;
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
   }
   .last {
     position: absolute;
@@ -132,38 +139,38 @@ hr {
     height: 100%;
     bottom: -70%;
     right: -50%;
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
   }
   .box-info .bg .boy {
     width: 3rem;
     height: 3rem;
     margin-top: -3rem;
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
   }
   .boy-name h3 {
     font-size: 16px;
     font-weight: 700;
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
   }
   .boy-name p {
     font-size: 14px;
     font-weight: 400;
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
   }
   .box .long-box {
     font-size: 14px;
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
   }
   .long-box .small-one h3,
   .small-two h3,
   .small-three h3 {
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
     font-size: 14px;
   }
   .long-box .small-one p,
   .small-two p,
   .small-three p {
-    transition: all 1s ease-in;
+    transition: all 0.8s ease-in;
     font-size: 14px;
   }
 }
